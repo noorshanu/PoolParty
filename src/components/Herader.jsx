@@ -2,7 +2,9 @@ import React from 'react';
 
 function Herader() {
   return (
-    <header className="navbar overflow-x-clip w-full z-999 border-b absolute border-b-border-line/5 top-20 sm:top-8 transition-all">
+    <header className="navbar overflow-x-clip w-full z-999 border-b absolute border-b-border-line/5 top-20 sm:top-8 transition-all"  
+    data-aos="zoom-in-down"
+    data-aos-duration="1500">
       <nav className="nav-items flex justify-between gap-6 items-center px-4 sm:px-6 max-w-9xl mx-auto min-h-28 transition-all">
         <div className="main-logo flex items-center flex-col sm:flex-row gap-1.5">
           <a href="/">
